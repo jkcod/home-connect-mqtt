@@ -7,10 +7,10 @@ RUN npm install
 COPY . .
 
 # Set port and expose
-ENV PORT 8080
+ENV PORT 63069
 ENV DATA_DIR /data
 ENV CONFIG_FILE /data/config.json
-EXPOSE  8080
+EXPOSE 63069
 
 # Start
 CMD ["npm", "start"]
